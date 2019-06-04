@@ -1,0 +1,130 @@
+/* #*/ export const PERSON = `
+name:
+  first: Chase
+  middle:
+  last: Adams
+
+position: Assistant Director
+
+experience:
+- company: Luminosity Lab, Arizona State University
+  position: Assistant Director
+  timeperiod: since August 2018
+  description: |
+    Managed innovative software projects in the lab around healthcare, business data analytics, robotics,
+    academic research, and other fields.
+  photo: http://1000logos.net/wp-content/uploads/2017/08/ASU-Logo.png
+  link: https://www.asu.edu
+
+- company: Lieuu
+  position: Co-Founder
+  timeperiod: since January 2018
+  description: |
+    Created Lieuu, a company with a React web app to assist users in discovering desirable
+    neighborhoods using artificial intelligence, using React, Apache Spark, Node.js, and built on Google
+    Datastore and Kubernetes Engine.
+  photo: static/img/lieuu.png
+  link: https://lieuu.com
+
+- company: WebPT
+  position: Senior Software Engineer
+  timeperiod: August 2017 - August 2018
+  description: |
+    Built microservices/UI for a new charting mechanism for the EMR, message-based architecture for
+    data sync across multiple disparate applications, as well as services for JWT authentication. Primarily
+    used Kubernetes, Node.js, React, Spring Boot, Docker, and AWS, on a team practicing Scrum/Agile.
+  photo: static/img/wpt.png
+  link: https://www.webpt.com
+
+- company: Infor
+  position: Software Engineer
+  timeperiod: August 2016 - August 2017
+  description: |
+    Worked with an Agile team on a cloud-first, Spring-based machine learning application for use in retail
+    to recommend items and predict customer behavior, running on AWS ECS. Architected two Jenkins build
+    pipelines and implemented OAuth 1.0a for API authentication.
+  photo: static/img/infor.png
+  link: https://www.infor.com/
+
+  # Architected two
+  # Jenkins build pipelines, one of which uses Git and Maven to build Docker containers for upload to
+  # Amazon ECR, and sped up the build time from over 8 hours to 4 hours. Constructed an integration test
+  # framework based on JUnit for testing Docker containers running Spring Boot in a restricted AWS
+  # environment, which reports results to Slack. Implemented OAuth 1.0a for API authentication to allow
+  # other Infor products to access the service. Assisted team members with the transition from SVN/Skype
+  # to Git/Slack, by reviewing pull requests and answering questions.
+
+- company: ASR Analytics, LLC
+  position: Junior Consultant
+  timeperiod: September 2015 -- August 2016
+  description: |
+    Wrote SQL statements querying large taxpayer datasets for input into artificial intelligence
+    algorithms, and organized presentations containing results. Developed algorithms for computation
+    of similarity between data using cosine similarity scores, Levenshtein distance, and others.
+  photo: static/img/asr.png
+  link: https://www.asranalytics.com
+
+- company: IQzone
+  position: Software Engineer
+  timeperiod: May 2012 - September 2015
+  description: |
+    Worked to add features to an Android library to display "postitial" advertisements. Wrote Android
+    code to overlay views on the home screen without a backing Activity, using the Android OS API.
+  photo: static/img/iqzone.png
+  link: https://iqzone.com
+
+# - company: ASU
+#   position: Researcher
+#   timeperiod: May 2012 - September 2015
+#   description: |
+#     Developed MATLAB code to model a diffusive control methodology for a swarm of robots using the heat
+#     equation to "rewind time" to get the initial location of the agents.
+#   photo: http://1000logos.net/wp-content/uploads/2017/08/ASU-Logo.png
+#   link: http://faculty.engineering.asu.edu/acs
+
+education:
+  history:
+  - timeperiod: May 2016
+    description: Computational Mathematical Sciences, B.S.
+    description2: Mechanical Engineering (Computational Mechanics), B.S.E.
+    location: ASU, Tempe, AZ
+    link: https://webapp4.asu.edu/programs/t5/roadmaps/ASU00/LACMSBS/null/ALL/2011/printpdf
+    link2: https://webapp4.asu.edu/programs/t5/roadmaps/ASU00/ESMAECBSE/2011/printpdf
+    map: https://goo.gl/maps/rYg2n1Hma922
+
+  honors:
+  - New American University Scholar Provost’s Award
+  - Obama Scholarship
+  - Dean’s List
+  publications:
+  - name: Coverage and Field Estimation on Bounded Domains by Diffusive Swarms
+    authors: Karthik Elamvazhuthi, Chase Adams and Spring Berman
+    school: Arizona State University
+
+skills:
+- name: Java
+  level: 95
+- name: React
+  level: 90
+- name: Node.js
+  level: 95
+- name: Python
+  level: 75
+- name: Kubernetes
+  level: 90
+- name: Docker
+  level: 90
+- name: AWS/Google Cloud
+  level: 95
+
+contact:
+  email: c@cadams.io
+  phone: 480 226 9294
+  street: 6432 E Parkview Dr
+  city: Scottsdale, AZ
+  website: cadams.io
+  website2: lieuu.com
+  github: chase-adams
+
+lang: en
+`
