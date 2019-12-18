@@ -2,7 +2,6 @@
 <div class="resume">
   <div class="leftCol m_box">
     <div class="shadow"></div>
-    <div class="heading" id="myselfpic"/>
     <div class="section-headline">
       {{ lang.contact }}
     </div>
@@ -47,7 +46,7 @@
           <i class="fa fa-github"></i>
         </div>
         <div class="text">
-          <span>@{{person.contact.github}}</span>
+          <span>{{person.contact.github}}</span>
         </div>
       </div>
     </a>
@@ -96,18 +95,18 @@
             <div class="education-desc">{{education.description2}}</div>
           </div>
         </a>
+        
+        <div v-for="publication in person.education.publications" :key="publication">
+          <a :href="publication.link" target="_blank" class="item">
+            <div class="icon">
+                <i class="fa fa-pencil"></i>
+              </div>
+            <div class="education-text">
+              <div class="education-desc">{{publication.name}}</div>
+            </div>
+          </a>
+        </div>
       </div>
-
-      <!-- <div class="item">
-        <div class="icon">
-          <i class="fa fa-star"></i>
-        </div>
-        <div v-for="honor in person.education.honors" :key="honor">
-          <div class="education-text">
-            <a class="education-desc">{{honor}}</a>
-          </div>
-        </div>
-      </div> -->
     </div>
 
     <div class="item last">
@@ -129,12 +128,17 @@
   </div>
 
   <div class="rightCol">
-    <div class="title">
-      <h2>{{person.name.first}} {{person.name.last}}</h2>
-      <!-- <div>{{person.position}}</div> -->
-    </div>
+    <div class="heading">
+      <div id="myselfpic"/>
+      <div>
+        <div class="title">
+          <h2>{{person.name.first}} {{person.name.last}}</h2>
+          <!-- <div>{{person.position}}</div> -->
+        </div>
 
-    <div class="section-headline">{{ lang.experience }}</div>
+        <div class="section-headline">{{ lang.experience }}</div>
+      </div>
+    </div>
     <div class="blocks">
       <div class="block" v-for="experience in person.experience" :key="experience.company">
         <div class="block-helper"></div>
@@ -257,10 +261,10 @@ ul {
 p {
   margin-top:0;
   margin-bottom:25px;
-  font-family:'Roboto', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-weight:300;
   font-size:10pt;
-  line-height:17pt;
+  line-height:13pt;
 }
 .m_box {
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
@@ -295,6 +299,9 @@ h4 {
   width:74.5%;
   height:100%;
   float:right;
+  .heading {
+    display: flex;
+  }
   .blocks {
     display:flex;
     flex-wrap: wrap;
@@ -547,8 +554,17 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../../resume/avatar.png');
+  background-image:url('../../resume/headshot.png');
   background-color: #15B097;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background-color:white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  margin-top: 20px;
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 #githubIcon {
   width:25px;

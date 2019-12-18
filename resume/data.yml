@@ -7,22 +7,21 @@ name:
 position: Assistant Director
 
 experience:
-- company: Luminosity Lab, Arizona State University
+- company: The Luminosity Lab, Arizona State University
   position: Assistant Director
   timeperiod: since August 2018
   description: |
-    Managed innovative software projects in the lab around healthcare, business data analytics, robotics,
-    academic research, and other fields.
+    Managed multiple moonshot software projects in the lab around healthcare, 
+    sustainability, robotics, and other fields.
   photo: http://1000logos.net/wp-content/uploads/2017/08/ASU-Logo.png
   link: https://www.asu.edu
 
 - company: Lieuu
-  position: Co-Founder
+  position: Co-Founder (Technical)
   timeperiod: since January 2018
   description: |
-    Created Lieuu, a company with a React web app to assist users in discovering desirable
-    neighborhoods using artificial intelligence, using React, Apache Spark, Node.js, and built on Google
-    Datastore and Kubernetes Engine.
+    Founded Lieuu, which helps "Discover your neighborhood" using numerous data sources and 
+    artificial intelligence, built with NextJS/React, Node.js, ZEIT Now, and MongoDB.
   photo: static/img/lieuu.png
   link: https://lieuu.com
 
@@ -100,22 +99,25 @@ education:
   - name: Coverage and Field Estimation on Bounded Domains by Diffusive Swarms
     authors: Karthik Elamvazhuthi, Chase Adams and Spring Berman
     school: Arizona State University
+    link: https://ieeexplore.ieee.org/document/7798696
 
 skills:
-- name: Java
-  level: 95
 - name: React
-  level: 90
+  level: 97
 - name: Node.js
   level: 95
 - name: Python
   level: 75
 - name: Kubernetes
-  level: 90
+  level: 85
 - name: Docker
-  level: 90
+  level: 85
+- name: Machine Learning
+  level: 80
 - name: AWS/Google Cloud
   level: 95
+- name: Java
+  level: 85
 
 contact:
   email: c@cadams.io
