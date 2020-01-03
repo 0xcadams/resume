@@ -7,14 +7,25 @@
   <h3 class="title">best-resume-ever</h3>
   <div class="previews">
     <div class="preview">
-      <router-link v-bind:to="'/resume/material-dark'">
+      <div>Material Resume</div>
+      <router-link v-bind:to="'/resume/chase-adams-resume'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-material-dark.png" />
-          <span>material-dark</span>
+          <span>material-dark resume</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
+      <div>Material Cover Letter</div>
+      <router-link v-bind:to="'/resume/chase-adams-cover-letter'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-material-dark.png" />
+          <span>material-dark cover letter</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <div>Oblique Resume</div>
       <router-link v-bind:to="'/resume/oblique'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-oblique.png" />

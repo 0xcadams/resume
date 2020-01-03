@@ -3,16 +3,12 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-// eslint-disable-next-line
-import wpt from '../resume/wpt.png';
-// eslint-disable-next-line
-import asr from '../resume/asr.png';
-// eslint-disable-next-line
-import iqzone from '../resume/iqzone.png';
-// eslint-disable-next-line
-import lieuu from '../resume/lieuu.png';
-// eslint-disable-next-line
-import infor from '../resume/infor.png';
+import '../resume/wpt.png';
+import '../resume/asr.png';
+import '../resume/iq.png';
+import '../resume/lieuu.png';
+import '../resume/infor.png';
+import '../resume/luminosity.png';
 
 Vue.config.productionTip = false;
 
