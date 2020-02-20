@@ -1,7 +1,28 @@
 {
-  "name": "best-resume-ever",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "Build fast and easy multiple beautiful resumes and create your best CV ever! ",
+  "description": "Code behind a Chase Adams resume.",
+  "private": true,
+  "homepage": "https://cadams.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chase-adams/resume.git"
+  },
+  "engines": {
+    "node": ">= 8.5.0",
+    "npm": ">= 5.0.0"
+  },
+  "contributors": [
+    "Chase Adams (https://cadams.io)"
+  ],
+  "keywords": [
+    "puppeteer",
+    "resume",
+    "vuejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/chase-adams/resume/issues"
+  },
   "license": "MIT",
   "scripts": {
     "docs": "node build/build.js",
@@ -102,9 +123,5 @@
     "webpack-dev-middleware": "2.0.5",
     "webpack-hot-middleware": "2.21.0",
     "webpack-merge": "4.1.1"
-  },
-  "engines": {
-    "node": ">= 8.5.0",
-    "npm": ">= 5.0.0"
   }
 }

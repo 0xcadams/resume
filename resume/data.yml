@@ -130,19 +130,19 @@ skills:
 contact:
   email: c@cadams.io
   phone: 480 226 9294
-  street: 6432 E Parkview Dr
+  street: 6777 E Primitive Dr
   city: Scottsdale, AZ
   website: cadams.io
-  website2: lieuu.com
+  website2: valure.io
   github: chase-adams
 
 letter:
   position: Chief Technology Officer
   recipient:
-    first: Scott
+    first: Guy
     last: Trench
-  company: BiggerPockets
-  street: 3344 Walnut St
+  company: NA
+  street: 3333 Denver St
   city: Denver, CO 80205    
 
 lang: en

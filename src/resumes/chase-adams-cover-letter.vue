@@ -113,13 +113,6 @@
       </div>
 
       <div class="section-body">
-        I am already looking to relocate to the Denver area (it's a great place to live!) and am planning on
-        moving there in the next few months. I wanted to get the conversation going with you and see if
-        it's a good fit. I'm actually going to keep my house in Arizona as a rental and I'm sure
-        I'll reference {{ person.letter.company }} for advice when I do!
-      </div>
-
-      <div class="section-body">
         Thank you for taking the time to review this. I look forward to talking with you!
       </div>
 

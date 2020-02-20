@@ -3,7 +3,7 @@
   <a href="https://github.com/salomonelli/best-resume-ever">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
-  best-resume-ever
+  resume
   <br>
 </h1>
 
@@ -12,34 +12,34 @@
 </div>
 
 <h4 align="center">
-  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
-  <br><br>
-  Made with Vue and LESS.
+  :necktie: This is the code behind a Chase Adams resume!
+  <br/>
+  <br/>
+  Built from <a href="https://github.com/salomonelli/best-resume-ever">best-resume-ever</a>. Made with Vue and LESS.
 </h4>
 
 <br>
 <br>
 
-<p align="left">
-<img src="src/assets/preview/resume-material-dark.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-oblique.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
+<p align="center">
+<img src="src/assets/preview/preview.png" width="300" style="margin-right:5px; border: 1px solid #ccc;" />
 </p>
 
 <br>
 <br>
 
-## How to use
-
-best-resume-ever requires at least node v.8.5.0.
+## Usage
 
 1. Clone this repository.
 
-2. Run `npm install`.
+2. Run `yarn install`.
 
-3. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace your profile-picture `id.jpg`.
+3. Preview resumes with `npm run dev`.
 
-4. Preview resumes with `npm run dev`.
+4. Export with `npm run export`.
 
-5. Export with `npm run export`.
+The resumes and cover letters will be exported to the `pdf/` folder. Check them out!
 
-All resumes will be exported to the `pdf/` folder.
+## License
+
+Licensed under the [MIT license](LICENSE).
