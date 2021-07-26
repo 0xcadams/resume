@@ -188,7 +188,7 @@ a {
 .title {
   right: 25px;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   bottom: 25px;
   h2 {
     text-transform: uppercase;
@@ -284,18 +284,18 @@ h4 {
       position: relative;
       background-color: #ffffff;
       border-radius: 6px;
-      padding: 17px;
-      margin-top: 10px;
-      margin-bottom: 5px;
+      padding: 14px;
+      margin-top: 7px;
+      margin-bottom: 0px;
       margin-right: 5px;
       display: inline-block;
-      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-        0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16),
+        0 2px 3px 0 rgba(0, 0, 0, 0.12);
       .headline-block {
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         align-items: center;
         .avatar-parent {
           width: 32px;
@@ -319,7 +319,7 @@ h4 {
         }
         .headlines {
           .headline {
-            font-weight: 300;
+            font-weight: 500;
             width: 100%;
             display: block;
             font-size: 13px;
@@ -329,7 +329,7 @@ h4 {
             color: rgba(0, 0, 0, 0.541176);
             display: block;
             font-size: 12px;
-            font-weight: 300;
+            font-weight: 500;
           }
         }
       }
@@ -416,7 +416,7 @@ h4 {
   }
   .item {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 8px;
     float: left;
     display: flex;
     padding-left: 5px;
@@ -446,7 +446,7 @@ h4 {
       li {
         padding-top: 0;
         display: block;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 300;
       }
     }

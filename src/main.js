@@ -9,6 +9,7 @@ import '../resume/iq.png';
 import '../resume/lieuu.png';
 import '../resume/infor.png';
 import '../resume/luminosity.png';
+import '../resume/zendoor.png';
 
 Vue.config.productionTip = false;
 
