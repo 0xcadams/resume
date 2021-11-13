@@ -120,19 +120,19 @@ education:
     link: https://ieeexplore.ieee.org/document/7798696
 
 skills:
-  - name: Agile Project Management
-    level: 95
   - name: React/NodeJS/Typescript
     level: 98
   - name: Elixir/Erlang
-    level: 85
+    level: 94
+  - name: Solidity/Ethereum
+    level: 80
   - name: AWS/GCP/Kubernetes
     level: 98
 
 contact:
   email: c@cadams.io
   phone: 480 226 9294
-  street: 6835 E Camelback Rd
+  street: 420 N Scottsdale Rd
   city: Scottsdale, AZ
   website: cadams.io
   website2: valure.io
