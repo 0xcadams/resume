@@ -7,71 +7,85 @@
         {{ lang.contact }}
       </div>
 
-      <div class="item">
-        <div class="icon">
-          <i class="material-icons">home</i>
+      <div class="item-group">
+        <div class="item">
+          <div class="icon">
+            <i class="fa fa-solid fa-house"></i>
+          </div>
+          <div class="text">
+            {{ person.contact.city }}
+          </div>
         </div>
-        <div class="text">
-          <ul>
-            <li>{{ person.contact.street }}</li>
-            <li>{{ person.contact.city }}</li>
-          </ul>
-        </div>
+
+        <a :href="'tel:' + person.contact.phone.replace(/\s/g, '')">
+          <div class="item">
+            <div class="icon">
+              <i class="fa fa-solid fa-phone"></i>
+            </div>
+            <div class="text">
+              {{ person.contact.phone }}
+            </div>
+          </div>
+        </a>
+
+        <a :href="'mailto:' + person.contact.email">
+          <div class="item">
+            <div class="icon">
+              <i class="fa fa-solid fa-inbox"></i>
+            </div>
+            <div class="text">
+              {{ person.contact.email }}
+            </div>
+          </div>
+        </a>
+
+        <a
+          v-if="person.contact.github"
+          :href="'https://github.com/' + person.contact.github"
+          target="_blank"
+        >
+          <div class="item">
+            <div class="icon">
+              <i class="fa fa-brands fa-github"></i>
+            </div>
+            <div class="text">
+              <span>{{ person.contact.github }}</span>
+            </div>
+          </div>
+        </a>
+
+        <a
+          v-if="person.contact.website"
+          :href="'https://' + person.contact.website"
+          target="_blank"
+        >
+          <div class="item">
+            <div class="icon">
+              <i class="fa fa-solid fa-link"></i>
+            </div>
+            <div class="text">
+              <span>{{ person.contact.website }}</span>
+            </div>
+          </div>
+        </a>
+
+        <a
+          v-if="person.contact.ethereum"
+          :href="'https://etherscan.io/address/0xa678c0342cc2ad21b084923b995a63cd5d439b5b'"
+          target="_blank"
+        >
+          <div class="item">
+            <div class="icon">
+              <i class="fa fa-brands fa-ethereum"></i>
+            </div>
+            <div class="text">
+              <span>{{ person.contact.ethereum }}</span>
+            </div>
+          </div>
+        </a>
       </div>
 
-      <a :href="'tel:' + person.contact.phone.replace(/\s/g, '')">
-        <div class="item">
-          <div class="icon">
-            <i class="material-icons">phone</i>
-          </div>
-          <div class="text">
-            {{ person.contact.phone }}
-          </div>
-        </div>
-      </a>
-
-      <a :href="'mailto:' + person.contact.email">
-        <div class="item">
-          <div class="icon">
-            <i class="material-icons">email</i>
-          </div>
-          <div class="text">
-            {{ person.contact.email }}
-          </div>
-        </div>
-      </a>
-
-      <a
-        v-if="person.contact.github"
-        :href="'https://github.com/' + person.contact.github"
-        target="_blank"
-      >
-        <div class="item">
-          <div class="icon">
-            <i class="fa fa-github"></i>
-          </div>
-          <div class="text">
-            <span>{{ person.contact.github }}</span>
-          </div>
-        </div>
-      </a>
-
-      <a
-        v-if="person.contact.website"
-        :href="'https://' + person.contact.website"
-        target="_blank"
-      >
-        <div class="item">
-          <div class="icon">
-            <i class="material-icons">language</i>
-          </div>
-          <div class="text">
-            <span>{{ person.contact.website }}</span>
-          </div>
-        </div>
-      </a>
-
-      <div class="item">
+      <div class="item-group last">
         <div class="section-headline">{{ lang.education }}</div>
         <div
           v-for="education in person.education.history"
@@ -86,10 +100,6 @@
               <div class="education-loc">
                 {{ education.location }}: {{ education.timeperiod }}
               </div>
-              <!-- <br />
-            <span class="education-sub">and</span>
-            <br />
-            <a :href="education.link2" target="_blank" class="education-desc">{{education.description2}}</a> -->
             </div>
           </a>
         </div>
@@ -108,22 +118,6 @@
           </a>
         </div>
       </div>
-
-      <div class="item last">
-        <div class="section-headline last-section">
-          {{ lang.skills }}
-        </div>
-        <div class="skill" v-for="skill in person.skills" :key="skill.name">
-          <div class="right">
-            <span>{{ skill.name }}</span>
-            <div class="prog-outer-outer">
-              <div class="prog-outer">
-                <div :style="{ width: skill.level + '%' }" class="prog"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="rightCol">
@@ -131,7 +125,7 @@
         <h2>{{ person.name.first }} {{ person.name.last }}</h2>
       </div>
 
-      <div class="section-headline">{{ lang.experience }}</div>
+      <!-- <div class="section-headline">{{ lang.experience }}</div> -->
       <div class="blocks">
         <div
           class="block"
@@ -250,7 +244,10 @@ p {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 26px;
+  font-size: 20px;
+}
+.fa-brands {
+  font-size: 24px;
 }
 h1,
 h3,
@@ -273,19 +270,19 @@ h4 {
   opacity: 1;
 }
 .rightCol {
-  width: 74.5%;
+  width: 79.5%;
   height: 100%;
   float: right;
   .blocks {
     display: flex;
     flex-wrap: wrap;
     .block {
-      width: 88%;
+      width: 92%;
       position: relative;
       background-color: #ffffff;
       border-radius: 6px;
       padding: 14px;
-      margin-top: 7px;
+      margin-top: 6px;
       margin-bottom: 0px;
       margin-right: 5px;
       display: inline-block;
@@ -295,7 +292,6 @@ h4 {
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
-        margin-bottom: 2px;
         align-items: center;
         .avatar-parent {
           width: 32px;
@@ -334,10 +330,10 @@ h4 {
         }
       }
       .info {
-        font-size: 12px;
+        font-size: 11.3px;
         color: rgba(0, 0, 0, 0.870588);
         margin-bottom: 0;
-        padding-top: 5px;
+        padding-top: 4px;
       }
       .icon {
         width: 16%;
@@ -387,7 +383,7 @@ h4 {
   }
 }
 .leftCol {
-  width: 190px;
+  width: 160px;
   height: 100%;
   float: left;
   padding: 0;
@@ -414,15 +410,25 @@ h4 {
     width: 100%;
     height: 190px;
   }
-  .item {
+  .item-group {
     width: 100%;
-    margin-top: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     float: left;
-    display: flex;
+    // display: flex;
     padding-left: 5px;
     // justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    .item {
+      width: 100%;
+      margin-top: 9px;
+      float: left;
+      display: flex;
+      // justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
     .last-section {
       margin-bottom: 10px;
     }
@@ -432,7 +438,7 @@ h4 {
       text-align: center;
     }
     .icon {
-      width: 20%;
+      width: 23%;
       float: left;
     }
     .text {
@@ -451,18 +457,17 @@ h4 {
       }
     }
     .education-loc {
-      // opacity:0.85;
+      opacity: 0.85;
       letter-spacing: 0.08333em;
       text-transform: uppercase;
-      padding-top: 5px;
+      padding-top: 4px;
       font-size: 11px;
       font-weight: 100;
     }
     .education-text {
       float: right;
-      width: 67%;
-      padding-right: 7%;
-      padding-left: 5%;
+      width: 72%;
+      // padding-left: 2%;
       // padding-top:4px;
       display: block;
       font-weight: 300;

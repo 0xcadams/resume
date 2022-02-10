@@ -7,41 +7,47 @@ name:
 position: Software Engineer
 
 experience:
+- company: Proof of Residency (Inclined)
+  position: Founder / Solidity Engineer
+  timeperiod: since August 2021
+  description: |
+    Started out building a banking app to teach kids financial literacy, ended up down the crypto
+    rabbit hole and developed Proof of Residency, a proof of personhood protocol for Ethereum.
+    Joined Shipyard to study optimization and security in Solidity, wrote contracts for a constant-product liquidity
+    pool, DAO on-chain voting, ICO, and crowdfunding app.
+  photo: static/img/por.png
+  link: https://proofofresidency.xyz
+
 - company: Zendoor
   position: Founding Software Engineer / Product Owner
-  timeperiod: since September 2020
+  timeperiod: September 2020 - August 2021
   description: |
-    Wrote code for property management software using Elixir and React/TS, leading the devops using
-    Kubernetes, and managing sprint meetings/organization of the team with Linear.
-    Led the interactions between the ops and engineering team and defined product roadmap.
+    Wrote code for property management software using Elixir (for scalability) and React/TS, implemented DevOps using
+    Kubernetes, and managed product roadmap/organization with Linear.
+    Led collaboration between ops and engineering teams.
     Helped identify roadblocks to engineering progress and continually evolved processes alongside team
     maturity.
   photo: static/img/zendoor.png
   link: https://zendoor.co
 
-- company: The Luminosity Lab, Arizona State University
-  position: Assistant Director
+- company: The Luminosity Lab (Arizona State University)
+  position: Assistant Director/Consultant
   timeperiod: since August 2018
   description: |
-    Managed "moonshot" software projects around healthcare, autonomous vehicles, sustainability, robotics,
+    Managed/wrote code for "moonshot" software projects around healthcare, autonomous vehicles, sustainability, robotics,
     and other fields.
-    Created Luminosity Academy, a program for students at ASU to learn applied skills in UI/UX design,
-    full-stack software development, and leadership.
-    Developed long-term roadmaps, business processes, and budgets.
-    Managed corporate engagement projects with external companies, organized statements of work,
-    performed interviews and hiring, mentored employees, and communicated with executives.
+    Created Luminosity Academy, a program for students to learn applied skills in full-stack development.
+    Led corporate engagement projects, created SoWs, performed interviews and hiring, mentored employees, and
+    communicated with stakeholders.
   photo: static/img/luminosity.png
   link: https://theluminositylab.com
 
 - company: Lieuu
-  position: Co-Founder (Technical)
-  timeperiod: January 2018 - August 2019
+  position: Co-Founder
+  timeperiod: January 2018 - September 2020
   description: |
-    Founded Lieuu, which allowed users to discover neighborhoods when purchasing a primary residence or
-    investment property using artificial intelligence.
-    Built the application from the ground up using NextJS/React, Node.js, Typescript, MongoDB, and ZEIT Now.
-    Managed software and design consultants.
-    Worked with the co-founder to develop a business plan and go-to-market strategy.
+    Started a company to help users discover neighborhoods using AI when purchasing a
+    primary residence or investment property. Managed software and design consultants.
     Supervised budgeting, marketing strategy, hiring processes, and engineering development.
   photo: static/img/lieuu.png
   link: https://lieuu.com
@@ -50,9 +56,9 @@ experience:
   position: Senior Software Engineer
   timeperiod: August 2017 - August 2018
   description: |
-    Built microservices/UI for a new charting mechanism for the EMR, message-based architecture for
-    data sync across multiple disparate applications, as well as services for JWT authentication. Primarily
-    used Kubernetes, Node.js, React, Spring Boot, Docker, and AWS, on a team practicing Scrum/Agile.
+    Built microservices/UI for a new charting mechanism for an EMR. Designed/deployed a robust message-based
+    architecture for data sync across multiple apps using Akka. Primarily used Kubernetes, Node.js, React,
+    Spring Boot, Docker, and AWS.
   photo: static/img/wpt.png
   link: https://www.webpt.com
 
@@ -60,17 +66,16 @@ experience:
   position: Software Engineer
   timeperiod: August 2016 - August 2017
   description: |
-    Worked with an Agile team on a cloud-first, Spring Boot machine learning application for use in retail
+    Built out DevOps practices using AWS/Jenkins for a distributed Spring Boot machine learning application for use in retail
     to recommend items and predict customer behavior.
   photo: static/img/infor.png
   link: https://www.infor.com/
 
 - company: ASR Analytics, LLC
   position: Junior Consultant
-  timeperiod: September 2015 -- August 2016
+  timeperiod: September 2015 - August 2016
   description: |
-    Wrote code to analyze classified IRS datasets using artificial intelligence to
-    detect taxpayer fraud.
+    Wrote SQL/Javascript code to analyze classified IRS datasets using artificial intelligence to detect taxpayer fraud.
   photo: static/img/asr.png
   link: https://www.asranalytics.com
 
@@ -78,40 +83,40 @@ experience:
   position: Software Engineer
   timeperiod: May 2012 - September 2015
   description: |
-    Added features to an Android library to display "Postitial" advertisements
-    by overlaying views on the home screen without a backing Activity, using the Android OS API.
+    Built/maintained an Android library to display "Postitial" advertisements by overlaying views on the home screen
+    without a backing Activity, using the Android OS API.
   photo: static/img/iq.png
   link: https://iqzone.com
 
 education:
   history:
+  - timeperiod: Dec 2020
+    description: Engineering Management, M.E.
+    location: ASU
+    link: https://asuengineeringonline.com/online-degrees/master-engineering-engineering-management-meng
+    map: https://goo.gl/maps/rYg2n1Hma922
+    icon: fa fa-solid fa-graduation-cap
+
   - timeperiod: May 2016
     description: Computational Mathematical Sciences, B.S.
     location: ASU
     link: https://webapp4.asu.edu/programs/t5/roadmaps/ASU00/LACMSBS/null/ALL/2011/printpdf
     map: https://goo.gl/maps/rYg2n1Hma922
-    icon: fa fa-graduation-cap
+    icon: fa fa-solid fa-graduation-cap
 
   - timeperiod: May 2016
     description: Mechanical Engineering (Computational Mechanics), B.S.E.
     location: ASU
     link: https://webapp4.asu.edu/programs/t5/roadmaps/ASU00/ESMAECBSE/2011/printpdf
     map: https://goo.gl/maps/rYg2n1Hma922
-    icon: fa fa-graduation-cap
+    icon: fa fa-solid fa-graduation-cap
 
   - timeperiod: Jun 2019
     description: Professional Scrum Master (PSM I)
     location: Scrum
     link: https://www.scrum.org/user/512015
     map: https://goo.gl/maps/rYg2n1Hma922
-    icon: fa fa-certificate
-
-  - timeperiod: Dec 2020
-    description: Engineering Management, M.E.
-    location: ASU
-    link: https://asuengineeringonline.com/online-degrees/master-engineering-engineering-management-meng
-    map: https://goo.gl/maps/rYg2n1Hma922
-    icon: fa fa-graduation-cap
+    icon: fa fa-solid fa-certificate
 
   publications:
   - name: Coverage and Field Estimation on Bounded Domains by Diffusive Swarms
@@ -119,23 +124,23 @@ education:
     school: Arizona State University
     link: https://ieeexplore.ieee.org/document/7798696
 
-skills:
-  - name: React/NodeJS/Typescript
-    level: 98
-  - name: Elixir/Erlang
-    level: 94
-  - name: Solidity/Ethereum
-    level: 80
-  - name: AWS/GCP/Kubernetes
-    level: 98
+# skills:
+#   - name: React/NodeJS/Typescript
+#     level: 98
+#   - name: Elixir/Erlang
+#     level: 94
+#   - name: Solidity/Ethereum
+#     level: 80
+#   - name: AWS/GCP/Kubernetes
+#     level: 98
 
 contact:
   email: c@cadams.io
-  phone: 480 226 9294
+  phone: 480-226-9294
   street: 420 N Scottsdale Rd
-  city: Scottsdale, AZ
+  city: Phoenix, AZ
   website: cadams.io
-  website2: valure.io
+  ethereum: cadams.eth
   github: chase-adams
 
 letter:

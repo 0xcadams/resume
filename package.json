@@ -42,6 +42,8 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.vue src scripts test"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.5.3",
+    "@fortawesome/fontawesome-free": "^6.0.0-beta3",
     "font-awesome": "4.7.0",
     "js-yaml": "3.10.0",
     "material-design-icons": "3.0.1",

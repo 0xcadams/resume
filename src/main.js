@@ -3,6 +3,7 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import '../resume/por.png';
 import '../resume/wpt.png';
 import '../resume/asr.png';
 import '../resume/iq.png';
