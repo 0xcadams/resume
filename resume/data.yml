@@ -22,8 +22,8 @@ experience:
   position: Founding Software Engineer / Product Owner
   timeperiod: September 2020 - August 2021
   description: |
-    Wrote code for property management software using Elixir and React/TS, implemented DevOps using
-    Kubernetes, and managed product roadmap/organization with Linear.
+    Wrote property management software using Elixir and React/TS, implemented DevOps using
+    Kubernetes/Terraform, and managed product roadmap/organization with Linear.
     Led collaboration between ops and engineering teams.
     Helped identify roadblocks to engineering progress and continually evolved processes alongside team
     maturity.
@@ -47,7 +47,7 @@ experience:
   timeperiod: January 2018 - September 2020
   description: |
     Started a company to help users discover neighborhoods using AI when purchasing a
-    primary residence or investment property. Built with React/NodeJS/Kubernetes/Apache Spark. Managed software and design consultants.
+    primary residence or investment property. Built with React/NodeJS/Kubernetes/Terraform/Apache Spark. Managed software and design consultants.
     Supervised budgeting, marketing strategy, hiring processes, and engineering development.
   photo: static/img/lieuu.png
   link: https://lieuu.com
@@ -57,8 +57,8 @@ experience:
   timeperiod: August 2017 - August 2018
   description: |
     Built microservices/UI for a new charting application for an electronic medical records system. Designed/deployed a robust message-based
-    architecture for data sync across multiple apps using Akka. Primarily used Kubernetes, Node.js, React,
-    Spring Boot, Docker, and AWS.
+    architecture for data sync across multiple apps using Akka. Primarily used Node.js, React,
+    Spring Boot, Docker, and Kubernetes/Terraform on AWS.
   photo: static/img/wpt.png
   link: https://www.webpt.com
 
@@ -66,7 +66,7 @@ experience:
   position: Software Engineer
   timeperiod: August 2016 - August 2017
   description: |
-    Built out the DevOps pipeline using AWS/Jenkins for a distributed Spring Boot machine learning application for use in retail
+    Built the DevOps pipeline using CloudFormation/Jenkins on AWS for a distributed Spring Boot ML application for use in retail
     to recommend items and predict customer behavior. Contributed to the Naive Bayes classifier implementation.
   photo: static/img/infor.png
   link: https://www.infor.com/
