@@ -22,7 +22,7 @@ experience:
   position: Founding Software Engineer / Product Owner
   timeperiod: September 2020 - August 2021
   description: |
-    Wrote code for property management software using Elixir (for scalability) and React/TS, implemented DevOps using
+    Wrote code for property management software using Elixir and React/TS, implemented DevOps using
     Kubernetes, and managed product roadmap/organization with Linear.
     Led collaboration between ops and engineering teams.
     Helped identify roadblocks to engineering progress and continually evolved processes alongside team
@@ -47,7 +47,7 @@ experience:
   timeperiod: January 2018 - September 2020
   description: |
     Started a company to help users discover neighborhoods using AI when purchasing a
-    primary residence or investment property. Managed software and design consultants.
+    primary residence or investment property. Built with React/NodeJS/Kubernetes/Apache Spark. Managed software and design consultants.
     Supervised budgeting, marketing strategy, hiring processes, and engineering development.
   photo: static/img/lieuu.png
   link: https://lieuu.com
@@ -56,7 +56,7 @@ experience:
   position: Senior Software Engineer
   timeperiod: August 2017 - August 2018
   description: |
-    Built microservices/UI for a new charting mechanism for an EMR. Designed/deployed a robust message-based
+    Built microservices/UI for a new charting application for an electronic medical records system. Designed/deployed a robust message-based
     architecture for data sync across multiple apps using Akka. Primarily used Kubernetes, Node.js, React,
     Spring Boot, Docker, and AWS.
   photo: static/img/wpt.png
@@ -66,8 +66,8 @@ experience:
   position: Software Engineer
   timeperiod: August 2016 - August 2017
   description: |
-    Built out DevOps practices using AWS/Jenkins for a distributed Spring Boot machine learning application for use in retail
-    to recommend items and predict customer behavior.
+    Built out the DevOps pipeline using AWS/Jenkins for a distributed Spring Boot machine learning application for use in retail
+    to recommend items and predict customer behavior. Contributed to the Naive Bayes classifier implementation.
   photo: static/img/infor.png
   link: https://www.infor.com/
 
@@ -75,7 +75,7 @@ experience:
   position: Junior Consultant
   timeperiod: September 2015 - August 2016
   description: |
-    Wrote SQL/Javascript code to analyze classified IRS datasets using artificial intelligence to detect taxpayer fraud.
+    Wrote SQL/Javascript code to analyze/visualize classified IRS datasets using artificial intelligence to detect taxpayer fraud.
   photo: static/img/asr.png
   link: https://www.asranalytics.com
 
